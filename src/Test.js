@@ -5,6 +5,8 @@ const Test =(props)=>{
     <div>
       testing{props.count}
       <h1> stateless copmontes meaning is like pline html here wrting any state compontes</h1>
+
+      <h3> {props.nithish}</h3>
       </div>
   )
 }

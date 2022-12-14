@@ -7,7 +7,7 @@ const App=()=>{
     <div>
       {count}
       <button onClick={()=>setCount(count+1)}>button </button>
-      <Test count={count}/>
+      <Test count={count} nithish={<h1>nithish is back </h1>}/>
       </div>
   )
 }
